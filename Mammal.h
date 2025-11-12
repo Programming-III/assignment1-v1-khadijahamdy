@@ -14,6 +14,10 @@ class mammal{
     public:
     mammal();
     mammal(string furColor);
+  void furColor();
+   
+    getfurColor();
+   
 }
 #endif
 
