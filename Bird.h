@@ -14,6 +14,7 @@ class bird{
     public:
     bird();
     bird(float wingSpan);
+ ~bird();
  void setwing();
     getwing();
 }
