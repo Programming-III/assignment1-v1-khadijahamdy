@@ -17,6 +17,7 @@ class animal{
     public:
     animal();
     animal(string name,int age, bool isHungry);
+ ~animal();
     void display();
     void feed();
     void feed();
