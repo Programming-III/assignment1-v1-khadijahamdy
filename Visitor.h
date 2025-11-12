@@ -18,6 +18,7 @@ class visitors{
     public:
     visitors();
     visitors(string visitorsName,int ticketsBought);
+~visitors();
 void setticketsBought();
     void setvisitorsName();
     getticketsBought();
