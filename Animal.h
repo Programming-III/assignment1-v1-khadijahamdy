@@ -9,14 +9,14 @@ using namespace std;
 using namespace std;
 #ifndef ANIMAL_H
 #define ANIMAL_H
-class zoo{
+class animal{
     private: 
     string name;
     int age;
     bool isHungry;
     public:
-    zoo();
-    zoo(string name,int age, bool isHungry);
+    animal();
+    animal(string name,int age, bool isHungry);
     void display();
     void feed();
     void feed();
