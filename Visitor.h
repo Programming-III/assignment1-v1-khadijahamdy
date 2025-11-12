@@ -18,6 +18,10 @@ class visitors{
     public:
     visitors();
     visitors(string visitorsName,int ticketsBought);
+void setticketsBought();
+    void setvisitorsName();
+    getticketsBought();
+    getvisitorsName();
 }
 #endif
 
