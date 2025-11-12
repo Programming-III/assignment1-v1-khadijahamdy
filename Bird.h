@@ -7,7 +7,7 @@
 using namespace std;
 #ifndef BIRD_H
 #define BIRD_H
-#include "zoo.h"
+#include "animal.h"
 class bird{
     private:
     float wingSpan;
