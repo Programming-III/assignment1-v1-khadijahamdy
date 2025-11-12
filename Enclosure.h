@@ -8,6 +8,7 @@
 using namespace std;
 #ifndef ENCLOSURE_H
 #define ENCLOSURE_H
+#include "Animal.h"
 class enclosure{
     private:
     int capacity;
