@@ -3,13 +3,22 @@
 
 #include <string>
 using namespace std;
-
-//define visitor class here
-
+ 
 
 
 
-
-
+#include <iostram>
+using namespace std;
+#ifndef VISITORS_H
+#define VISITORS_H
+class visitors{
+    private:
+    string visitorsName;
+    int ticketsBought;
+    public:
+    visitors();
+    visitors(string visitorsName,int ticketsBought);
+}
+#endif
 
 #endif
