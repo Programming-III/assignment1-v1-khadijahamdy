@@ -14,6 +14,7 @@ class reptile{
     public:
     reptile();
 reptile(bool isVenomos);
+~reptile();
 void setisVenomos();
 getisVenomos();
 }
