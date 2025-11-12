@@ -7,7 +7,7 @@
 using namespace std;
 #ifndef MAMMAL_H
 #define MAMMAL_H
-#include "zoo.h"
+#include "animal.h"
 class mammal{
     private:
     string furColor;
