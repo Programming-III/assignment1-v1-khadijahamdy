@@ -19,6 +19,13 @@ class zoo{
     zoo(string name,int age, bool isHungry);
     void display();
     void feed();
+    void feed();
+    void setname();
+    void setage();
+    void setisHungry();
+    getname();
+    getage();
+    gethungry();
 }
 #endif
 
