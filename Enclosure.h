@@ -17,6 +17,9 @@ class enclosure{
     public:
     enclosure();
     enclosure(int capacity,Animal* a,int currentCount);
+
+~enclosure();
+
     void addAnimal(Animal*a);
     void displayAnimals();
    void setcurrentCount();
